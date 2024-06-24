@@ -1,4 +1,4 @@
-//Data types
+//Learning Data types
 var num = 10;
 var ans = true;
 var str="string";
