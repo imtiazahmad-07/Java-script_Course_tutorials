@@ -1,3 +1,4 @@
+
 var firstname = "ali"; //declaring variable with var keyword
 var firstname = "Imtiaz";   //declaring again same variable name and it would run
 document.write("My name is : ", firstname);
