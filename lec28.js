@@ -1,3 +1,6 @@
+//PRomise Chaining 
+
+
 function getData(dataId){
     return new Promise((resolve,rejcet)=>{
         setTimeout(()=>{
