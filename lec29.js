@@ -8,7 +8,7 @@ function getData(dataId)
     })
 }
 
-async function callData(){
+(async function (){
     console.log("Getting data 1....")
     await getData(1);
     console.log("Getting data 2....")
@@ -17,4 +17,4 @@ async function callData(){
     await getData(3);
     console.log("Getting data 4....")
     await getData(4);
-}
+})();
