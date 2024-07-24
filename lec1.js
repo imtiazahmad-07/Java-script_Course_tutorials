@@ -3,7 +3,7 @@
 // document.write("Hello world");
 // alert("No internet connection");
 
-//2. Javascript console ApI's
+//2. Javascript console 
 console.log("Hello World");
 console.warn("Warning");
 console.error("This is an error");
