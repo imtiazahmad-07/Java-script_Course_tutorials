@@ -4,27 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        #box{
-            width: 100px;
-            height: 100px;
-            background-color: blue;
-            margin: 100px 0px 0px 125px;
+        body{
+            color:white;
+            display: flex;
+            
         }
         #box1{
             width: 100px;
             height: 100px;
+            background-color: blue;
+            margin: 10px 0px 0px 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #box2{
+            width: 100px;
+            height: 100px;
             background-color: red;
-            margin: 10px 0px 0px 125px;
+            margin: 10px 0px 0px 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #box3{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            margin: 10px 0px 0px 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #box4{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            margin: 10px 0px 0px 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
     <title>Mouse Events</title>
 </head>
 <body>
-    <div id="box" onclick="fun()">
+    <div id="box1">
         Left Click
     </div>
-    <div id="box1" onclick="fun()">
-        Right Cick
+    <div id="box2">
+        Right Click
+    </div>
+    <div id="box3">
+        Double Click
+    </div>
+    <div id="box4">
+        Hover Pointer
     </div>
     <script src="lec36.js"></script>
 </body>
