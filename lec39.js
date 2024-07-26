@@ -10,5 +10,7 @@ document.querySelector("#test").appendChild(newElement) //it puts the newElement
 var target = document.querySelector("#test");
 target.insertBefore(newElement,target.childNodes[0]) //it appends the element before the  0th index child
 
+let parent = document.querySelector("#menu");
+parent.removeChild(parent.children[0]);   //it removes the child of menu ID
 
 
